@@ -1,0 +1,12 @@
+c:\users\67493\documents\visual studio 2015\Projects\FinalCalculator\FinalCalculator\bin\Debug\FinalCalculator.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\bin\Debug\FinalCalculator.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\bin\Debug\FinalCalculator.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.Properties.Resources.resources
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.csproj.GenerateResource.Cache
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.csprojResolveAssemblyReference.cache
+C:\Users\67493\Documents\Visual Studio 2015\Projects\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.AYMcalc.resources
+C:\Users\67493\Desktop\FinalCalculator\FinalCalculator\bin\Debug\FinalCalculator.exe.config
+C:\Users\67493\Desktop\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.exe
+C:\Users\67493\Desktop\FinalCalculator\FinalCalculator\obj\Debug\FinalCalculator.pdb
