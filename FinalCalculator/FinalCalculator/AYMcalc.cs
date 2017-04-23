@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FinalCalculator
 {
     public partial class AYMcalc : Form
@@ -21,6 +22,7 @@ namespace FinalCalculator
         public AYMcalc()
         {
             InitializeComponent();
+            
         }
         private void digit_Click(object sender, EventArgs e)
         {
@@ -36,6 +38,7 @@ namespace FinalCalculator
             }
             Button btn = sender as Button;
             display.Text += btn.Text;
+            
         }
         private void result_Click(object sender, EventArgs e)
         {
@@ -118,7 +121,11 @@ namespace FinalCalculator
             digit_pressed = true;
 
         }
-
+        private void Clear_all_Click(object sender, EventArgs e)
+        {
+            display.Text = "0";
+            number = 0;
+        }
         private void btn_clear_Click(object sender, EventArgs e)
         {
             display.Clear();

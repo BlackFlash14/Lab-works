@@ -59,6 +59,7 @@
             this.poimt = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // display
@@ -226,7 +227,7 @@
             this.Clear.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Clear.Font = new System.Drawing.Font("AR JULIAN", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Clear.Location = new System.Drawing.Point(212, 310);
+            this.Clear.Location = new System.Drawing.Point(120, 309);
             this.Clear.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(80, 60);
@@ -254,7 +255,7 @@
             this.multiply.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.multiply.Font = new System.Drawing.Font("AR JULIAN", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.multiply.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.multiply.Location = new System.Drawing.Point(304, 310);
+            this.multiply.Location = new System.Drawing.Point(304, 309);
             this.multiply.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.multiply.Name = "multiply";
             this.multiply.Size = new System.Drawing.Size(80, 60);
@@ -311,7 +312,7 @@
             this.root.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.root.Font = new System.Drawing.Font("AR JULIAN", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.root.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.root.Location = new System.Drawing.Point(120, 310);
+            this.root.Location = new System.Drawing.Point(304, 169);
             this.root.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.root.Name = "root";
             this.root.Size = new System.Drawing.Size(80, 60);
@@ -449,12 +450,27 @@
             this.label2.TabIndex = 31;
             this.label2.Text = "STANDARD";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("AR JULIAN", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(212, 310);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 60);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "C";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Clear_all_Click);
+            // 
             // AYMcalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(409, 670);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.poimt);
@@ -529,6 +545,7 @@
         private System.Windows.Forms.Button poimt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
